@@ -1,0 +1,88 @@
+.container{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background-image: url("back.jpg");
+}
+body{
+    background-image: url("back.jpg");
+}
+h1{
+    color:whitesmoke;
+}
+
+a {
+    border-radius: 20px;
+    text-decoration: none;
+    color: silver;
+    display: block;
+    padding: 30px;
+    margin: 5px;
+    background-color: red;
+    box-shadow: black 2px 2px;
+    color: whitesmoke;
+}
+a:hover {
+    text-decoration: none;
+    color: silver;
+    display: block;
+    padding: 30px;
+    margin: 5px;
+    background-color: lightcoral;
+    box-shadow: black 2px 2px;
+}
+a:active {
+    text-decoration: none;
+    color: silver;
+    display: block;
+    padding: 30px;
+    margin: 5px;
+    background-color: darkred;
+    box-shadow: black 2px 2px;
+}
+form{
+    
+    display:grid;
+    grid-row-gap: 1rem;
+    max-width: 600px;
+    margin-top: 3rem;
+    text-align: center;
+    background-color: darkred;
+    padding:10px;
+    justify-content: center;
+    box-shadow: black 2px 2px;
+    color:whitesmoke;
+    
+}
+p{
+    padding:auto;
+    margin:auto;
+}
+input{
+    max-width: 300px;
+    
+}
+.cancelboard{
+    max-width: 600px;
+    min-height:1000px;
+    margin: auto;
+    background-color: darkslategray;
+    color:whitesmoke;
+    box-shadow: black 2px 2px;
+    
+}
+.canceldata{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 600px;
+    word-break: break-word 
+}
+@media only screen and (max-width: 760px) {
+    .container{width:100%;}
+    .canceldata{width:100%;}
+    .cancelboard{width:100%;}
+    h2{
+        
+    }
+
+}
